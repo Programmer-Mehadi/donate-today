@@ -6,7 +6,7 @@
 /* Top Bannar Section start  */
 #top-Banner {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-image: url(images/donation.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,10 +20,10 @@
 }
 .overlay {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-image: linear-gradient(
     to top,
-    rgba(20, 17, 17, 0.897),
+    rgba(20, 17, 17, 0.997),
     rgba(255, 0, 0, 0)
   );
   display: flex;
@@ -36,9 +36,10 @@
 }
 .banner-container p {
   font-size: 13px;
-  margin: 0px 250px 30px 250px;
+  margin: 0px 250px 40px 250px;
 }
-.banner-container a {
+
+.btn {
   font-size: 15px;
   text-decoration: none;
   background-color: #ff5959;
@@ -47,3 +48,55 @@
   padding: 15px 15px;
 }
 /* Top Bannar Section end  */
+/* Donate now section start  */
+#donate-now {
+  display: block;
+}
+#donate-now .container {
+  display: block;
+  width: 65%;
+  margin: 0px auto;
+  padding: 80px 200px;
+  text-align: center;
+}
+#donate-now .container h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+#donate-now .container p {
+  margin: 20px 100px;
+  color: #707070;
+}
+.price-section {
+  display: flex;
+  justify-content: center;
+}
+.select {
+  background-color: #ffeeee !important;
+  color: #ff5959 !important;
+  border: 2.5px solid #ff5959 !important;
+}
+
+.price-section .price {
+  margin: 10px 20px;
+  background-color: #fafafa;
+  padding: 30px 15px;
+  border-radius: 5px;
+  color: #707070;
+  font-size: 25px;
+}
+
+.taka-input {
+  text-align: center;
+  width: 90%;
+  color: #b3b3b3;
+  border-bottom-color: #b3b3b3;
+  margin: 20px 0px 30px 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 1.5px;
+  height: 25px;
+  outline: none;
+}
+/*  Donate now section end */
