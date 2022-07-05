@@ -6,12 +6,11 @@
 /* Top Bannar Section start  */
 #top-Banner {
   width: 100%;
-
   background-image: url(images/donation.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-#top-Banner .banner-container {
+#top-Banner .container {
   display: block;
   width: 100%;
   padding: 140px 0px;
@@ -30,13 +29,13 @@
   align-items: center;
   justify-content: center;
 }
-.banner-container h1 {
+.container h1 {
   font-size: 65px;
   margin: 0px 200px 10px 200px;
 }
-.banner-container p {
+.container .content {
   font-size: 18px;
-  margin: 0px 250px 40px 250px;
+  margin: 0px 260px 40px 260px;
 }
 
 .btn {
@@ -63,9 +62,9 @@
   font-size: 45px;
   font-weight: 800;
 }
-#donate-now .container p {
+#donate-now .container .content {
   /* margin: 20px 100px; */
-  margin: 20px 250px 40px 250px;
+  margin: 20px 260px 40px 260px;
   color: #707070;
   font-size: 18px;
 }
@@ -104,3 +103,101 @@
   opacity: 0.7;
 }
 /*  Donate now section end */
+/* Donate plan section start */
+#donate-plan {
+  display: block;
+}
+#donate-plan .container {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  padding: 40px 0px;
+  text-align: center;
+}
+#donate-plan .container h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+#donate-plan .container .content {
+  /* margin: 20px 100px; */
+  margin: 20px 260px 40px 260px;
+  color: #707070;
+  font-size: 18px;
+}
+.plan-list {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+.plan-list .plan {
+  text-align: left;
+  width: 29.33333%;
+  margin: 0% 2%;
+  padding: 30px 20px;
+}
+.plan-list .food {
+  background-color: rgba(79, 157, 166, 10%);
+}
+
+.plan-list .shelter {
+  background-color: rgba(255, 89, 89, 10%);
+}
+.plan-list .frame {
+  background-color: rgba(255, 242, 204, 100%);
+}
+.plan h3,
+.plan img {
+  margin-bottom: 20px;
+}
+/* Donate plan section end */
+/* Get updates section start  */
+#get-updates {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.email-section {
+  display: block;
+  background-color: #fff4d6;
+  width: 60%;
+  padding: 80px 80px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.email-section input {
+  background-color: #d9d9d9;
+  padding: 10px 10px;
+  border: none;
+  width: 40%;
+  border-radius: 4px;
+  font-size: 20px;
+  outline: none;
+}
+.subscribe-btn {
+  width: 30%;
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #ff5959;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  text-decoration: none;
+  margin-left: -10px;
+}
+/* Get updates section end  */
+/* footer section start */
+.footer {
+  margin-top: 80px;
+  background-color: black;
+  padding: 30px 0px;
+  text-align: center;
+}
+.footer h1 {
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+  margin-bottom: 40px;
+}
+.footer p {
+  color: #d9dbe1;
+}
+/* footer section end */
