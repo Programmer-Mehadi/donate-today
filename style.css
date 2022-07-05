@@ -29,11 +29,11 @@
   align-items: center;
   justify-content: center;
 }
-.container h1 {
+#top-Banner .container h1 {
   font-size: 65px;
   margin: 0px 200px 10px 200px;
 }
-.container .content {
+#top-Banner .container .content {
   font-size: 18px;
   margin: 0px 260px 40px 260px;
 }
@@ -134,6 +134,7 @@
   width: 29.33333%;
   margin: 0% 2%;
   padding: 30px 20px;
+  border-radius: 4px;
 }
 .plan-list .food {
   background-color: rgba(79, 157, 166, 10%);
@@ -150,11 +151,91 @@
   margin-bottom: 20px;
 }
 /* Donate plan section end */
+/* Blog section start */
+#blog-list {
+  display: block;
+  background-color: #fcfbf0;
+}
+
+#blog-list .container .section-title {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 45px;
+  font-weight: 900;
+  margin: 40px 0px 80px 0px;
+}
+#blog-list .container .blog-body {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+}
+.blog {
+  text-align: left;
+  width: 31.33333%;
+  margin: 0% 1%;
+  border-radius: 4px;
+  background-color: #fcfbfc;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.blog img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+.blog .date {
+  font-size: 15px;
+  margin: 10px 4px 0px 10px;
+}
+.blog .tag {
+  background-color: rgb(181, 213, 214);
+  color: black;
+  padding: 2px 2px;
+  margin: 0px 4px 0px 10px;
+
+  border-radius: 4px;
+}
+.blog .blog-title {
+  margin-bottom: 10px;
+}
+.blog .blog-btn {
+  border-radius: 4px;
+  margin-left: 10px;
+  color: black;
+  border-radius: 5px;
+}
+.blog .blog-content,
+.blog .blog-title,
+.blog .tag-date {
+  padding: 10px 10px;
+}
+.explore-btn {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 5px 7px;
+  color: black;
+}
+.blog-explore {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 50px 0px;
+}
+.blog .blog-bottom {
+  padding: 20px 30px 30px 30px;
+}
+/* blog section end */
 /* Get updates section start  */
 #get-updates {
+  margin: 80px 0px;
   display: block;
   justify-content: center;
   text-align: center;
+}
+#get-updates h1 {
+  font-size: 45px;
+  font-weight: 800;
 }
 .email-section {
   display: block;
@@ -163,6 +244,14 @@
   padding: 80px 80px;
   margin: 0 auto;
   border-radius: 5px;
+}
+#get-updates .content {
+  color: #707070;
+}
+#get-updates .content {
+  margin: 40px 260px 80px 260px;
+  color: #707070;
+  font-size: 18px;
 }
 .email-section input {
   background-color: #d9d9d9;
@@ -186,7 +275,7 @@
 /* Get updates section end  */
 /* footer section start */
 .footer {
-  margin-top: 80px;
+  margin-top: 120px;
   background-color: black;
   padding: 30px 0px;
   text-align: center;
